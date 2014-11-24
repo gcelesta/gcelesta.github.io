@@ -49,3 +49,10 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.attribution {
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+}
