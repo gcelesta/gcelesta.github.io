@@ -1,9 +1,9 @@
 # Site settings
+
 title: DHUM 150 Final Project
-email: gcelesta@uvic.ca
-description: > # this means to ignore newlines until "baseurl:"
-    DHUM 150 log website converted to GitHub-based website
-baseurl: '' # the subpath of your site, e.g. /blog/
+description: DHUM 150 log website converted to GitHub-based website
+
+baseurl: ''
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://gcelesta.github.io
