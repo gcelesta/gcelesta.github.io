@@ -3,18 +3,21 @@ layout: default
 title: "DHUM 150 Final Project: Log Website"
 ---
 
-<div class="well">
-    <div class="content">
-        <h1>{{ page.title }}</h1>
-        <h3>Gordon M. Celesta</h3>
-        <img src="images/gordon_celesta.jpg" alt="Gordon M. Celesta"  title="Gordon M. Celesta" width="248" height="248">
+
+<div class="article">
+    <div class="well">
+        <div class="content">
+            <h1>{{ page.title }}</h1>
+            <h3>Gordon M. Celesta</h3>
+            <img src="{{ site.baseurl }}/images/gordon_celesta.jpg" alt="Gordon M. Celesta"  title="Gordon M. Celesta" width="248" height="248">
+        </div>
     </div>
 </div>
 
 {% for post in paginator.posts %}
 <div class="article">
     <div class="well">
-        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
         {% if site.comments == true and post.comments == true and site.disqus != '' %}
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
         {% endif %}
