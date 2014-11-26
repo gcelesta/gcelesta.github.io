@@ -9,7 +9,7 @@ baseurl: ''
 url: http://gcelesta.github.io
 
 # This can be '' to hide the Github nav button
-github: 'gcelesta/gcelesta.github.io'
+github: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
