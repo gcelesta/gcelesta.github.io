@@ -53,6 +53,11 @@ body {
     font-weight: bold;
 }
 
+.well h4 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
 .author {
     color: #ee4444;
 }
@@ -70,4 +75,9 @@ p.attribution {
 
 sup {
 	font-size:		.5em;
+}
+
+#notes
+{
+	font-size:		.66em;
 }
