@@ -67,3 +67,7 @@ p.attribution {
     margin-top: 20px;
     width: 200px;
 }
+
+sup {
+	font-size:		.5em;
+}
