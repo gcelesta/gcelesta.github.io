@@ -74,10 +74,24 @@ p.attribution {
 }
 
 sup {
-	font-size:		.5em;
+	font-size: .5em;
 }
 
 #notes
 {
-	font-size:		.66em;
+	font-size: .66em;
+}
+
+figcaption {
+	text-align: right;
+	font-size: .8em;
+	width: 675px;
+}
+
+.figure
+{
+	border: solid;
+	border-width: 2px;
+	border-color: navy;
+	margin-top: 20px;
 }
