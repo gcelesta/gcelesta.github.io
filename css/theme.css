@@ -74,12 +74,16 @@ p.attribution {
 }
 
 sup {
-	font-size: .5em;
+	font-size: .8em;
+}
+
+h4.notes {
+    margin-top: 50px;
 }
 
 #notes
 {
-	font-size: .66em;
+	font-size: 1em;
 }
 
 figcaption {
